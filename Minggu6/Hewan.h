@@ -19,7 +19,7 @@ public:
     {
         cout << "Hewan ini namanya " << this->name << endl;
     }
-
+    //
 protected:
     string name;
 };

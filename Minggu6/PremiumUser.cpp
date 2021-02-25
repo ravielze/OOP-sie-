@@ -2,7 +2,7 @@
 #include <iostream>
 #include <cstring>
 using namespace std;
-
+//
 PremiumUser::PremiumUser(char *n) : User(n)
 {
     this->num_of_music_downloaded = 0;

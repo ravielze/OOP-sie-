@@ -1,5 +1,5 @@
 #include "Hewan.h"
-
+//
 int main()
 {
     Hewan *array_hewan[3];
@@ -9,7 +9,7 @@ int main()
     array_hewan[0] = &a;
     array_hewan[1] = &b;
     array_hewan[2] = &c;
-
+    //
     for (int i = 0; i < 3; i++)
     {
         array_hewan[i]->print(); //Keluaran = "[Makhluk] ini namanya [nama]\n"
